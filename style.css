@@ -1,0 +1,34 @@
+:root {
+    --primaryColor: #414141;
+    --secondaryColor: #2b7a78;
+    --dark:#414141;
+    --bottonColor: #17252a;
+    --colorWhite: #feffff;
+    --coloGrey: #def2f1;
+  }
+  
+  html{
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  img{
+      width: 400px;
+      height: 400px;
+  }
+  
+  .cotainer{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      color: #414141;
+  }
