@@ -1,10 +1,9 @@
 :root {
     --primaryColor: #414141;
     --secondaryColor: #2b7a78;
-    --dark:#414141;
     --bottonColor: #17252a;
     --colorWhite: #feffff;
-    --coloGrey: #def2f1;
+    --coloGrey: #e6e6e6;
   }
   
   html{
@@ -31,4 +30,23 @@
       text-align: center;
       justify-content: center;
       color: #414141;
+      gap: 2rem;
   }
+  .sidebarButton{
+    padding: 15px;
+    /* border: 2px solid var(--bottonColor); */
+    text-decoration: none;
+    color: var(--coloGrey);
+    background-color: var(--primaryColor);
+    border-radius: 40px;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+
+  .buttonSecondary{
+
+background-color: var(--colorWhite);  
+color: var(--primaryColor);
+border: 2px solid var(--primaryColor);
+}
