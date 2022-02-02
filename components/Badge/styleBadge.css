@@ -16,44 +16,57 @@
 }
 
 .badge_tiny{
-    color: red;
+    color: rgb(0, 0, 0);
     position: relative;
     top: -1rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
+    left: -0.5rem;
+    height: 8px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
 }
 
 .badge_small{
-    color: red;
+    color: rgb(0, 0, 0);
     position: relative;
     top: -4rem;
     right: 1rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
+    height: 8px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
 }
 
 
 .badge_medium{
-    color: red;
+    color: rgb(0, 0, 0);
     position: relative;
     top: -5rem;
     right: 1rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
+    height: 8px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
 }
 
 .badge_large{
-    color: red;
+    color: rgb(0, 0, 0);
     position: relative;
     top: -6rem;
     right: 1rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
 }
+
 
 .iframe{
     display: flex;
