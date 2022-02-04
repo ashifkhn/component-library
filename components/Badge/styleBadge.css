@@ -1,78 +1,89 @@
-@import url(../Avatar/styleAvatar.css);
+@import url(../../css/avatar.css);
+@import url(../../css/color.css);
+@import url(../../css/padding.css);
+@import url(../../css/border.css);
+@import url(../../css/font.css);
 
-.navbarItemAvatar{
-    font-weight: normal;
+html {
+  height: 100%;
 }
 
-.navbarItemBadge{
-    font-weight: bolder;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
 
-
-.avatar_tiny_container{
-    display: flex;
-    width: 3rem;
-    height: 3rem;
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primaryColor);
 }
 
-.badge_tiny{
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: -1rem;
-    left: -0.5rem;
-    height: 8px;
-    padding: 7px;
-    font-size: 1rem;
-    font-weight: bolder;
-    background-color: rgb(255, 0, 0);
-    border-radius: 20px;
+.container{
+display: flex;
 }
 
-.badge_small{
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: -4rem;
-    right: 1rem;
-    height: 8px;
-    padding: 7px;
-    font-size: 1rem;
-    font-weight: bolder;
-    background-color: rgb(255, 0, 0);
-    border-radius: 20px;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-left: 2.5rem;
 }
 
-
-.badge_medium{
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: -5rem;
-    right: 1rem;
-    height: 8px;
-    padding: 7px;
-    font-size: 1rem;
-    font-weight: bolder;
-    background-color: rgb(255, 0, 0);
-    border-radius: 20px;
-}
-
-.badge_large{
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: -6rem;
-    right: 1rem;
-    padding: 7px;
-    font-size: 1rem;
-    font-weight: bolder;
-    background-color: rgb(255, 0, 0);
-    border-radius: 20px;
-}
-
-
-.iframe{
-    display: flex;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    width: 1024px; height: 599px; border:0; transform: scale(1); overflow:hidden;
-  }
+.main{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
   
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--lightGrey);
+}
+
+
+
+li {
+  list-style: none;
+  font-size: 0.2rem;
+  color: white;
+}
+h2 {
+  color: var(--primaryColor);
+  padding: 0.2rem;
+}
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.badgeContainer{
+    display: flex;
+}
+
+.badge{
+    display: flex;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10rem;
+}
+
+
+.badgeOnline{
+    background-color: var(--colorOnline);
+}
+
+.badgeOffline{
+    background-color: var(--colorOffline);
+}
+

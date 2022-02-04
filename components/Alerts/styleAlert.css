@@ -1,0 +1,165 @@
+:root {
+    --primaryColor: #414141;
+    --secondaryColor: #2b7a78;
+    --dark:#414141;
+    --bottonColor: #17252a;
+    --colorWhite: #feffff;
+    --coloGrey: #def2f1;
+  }
+  
+  html{
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  .navbar{
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--primaryColor);
+      color: var(--colorWhite);
+      height:150px ;
+      flex-wrap: wrap;
+      padding: 0 20px;
+      border-top-left-radius: 1.5rem;
+  }
+  
+  .navbar_items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+  }
+  
+  li{
+      list-style: none;
+      font-size: 0.2rem;
+      color: white;
+  }
+  h2{
+    color: var(--primaryColor);
+    padding: 0.2rem;
+  }
+  a{
+    text-decoration: none;
+    color: var(--primaryColor);
+    margin: 10px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  
+  .navbarItemAvatar{
+      font-weight: bolder;
+  }
+  
+  
+  
+  .contentContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  background-color: var(--colorWhite);
+  /* background: black; */
+  }
+  
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    /* height: 50%; */
+    /* background-color: var(--dark); */
+    overflow: hidden;
+    /* height: 100%; */
+  }
+  
+  .contentPage{
+    width: 100%;
+    border-top-left-radius: 10px;
+  }
+  
+  .navbar_item_list{
+    text-decoration: none;
+    color: var(--colorWhite);
+    font-size: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .avatarTitle{
+    padding: 5px;
+  }
+  
+  .avatarDetails{
+    padding: 5px;
+  }
+  
+  
+  .avatar_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #414141;
+  }
+  
+  
+  
+  .avatar_tiny {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    gap: 1rem;
+  }
+  
+  .avatar_small {
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+  }
+  
+  .avatar_medium {
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+  }
+  .avatar_large {
+    width: 110px;
+    height: 110px;
+    border-radius: 200px;
+  }
+  .avatar_huge {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    
+  }
+  
+  .iframe{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    width: 1024px; height: 599px; border:0; transform: scale(1); overflow:hidden;
+  }
+  
+
+  .navbarItemAvatar{
+    font-weight: normal;
+  }
+
+  .navbarItemBadge{
+    font-weight: normal;
+  }
+
+  .navbarItemAlert{
+    font-weight: Bolder;
+  }
