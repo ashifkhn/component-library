@@ -50,9 +50,10 @@ a {
   padding: 15px;
   text-decoration: none;
   color: var(--coloGrey);
-  background-color: var(--buttonColor);
+  background-color: var(--colorDarkGreen);
   border-radius: 15px;
   margin: 10px;
   font-weight: bold;
   cursor: pointer;
+
 }
