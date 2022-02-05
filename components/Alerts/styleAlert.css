@@ -7,7 +7,7 @@
 @import url(../../css/reset.css);
 
 .navbar {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   color: var(--primaryColor);
