@@ -58,13 +58,23 @@ a {
   display: flex;
 }
 
-.badge {
+.badgeLarge {
   display: flex;
   justify-content: center;
   width: 1rem;
   height: 1rem;
   border-radius: 10rem;
 }
+
+
+.badgeSmall {
+  display: flex;
+  justify-content: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 10rem;
+}
+
 
 .badgeOnline {
   background-color: var(--colorOnline);
