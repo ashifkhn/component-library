@@ -3,27 +3,17 @@
 @import url(../../css/padding.css);
 @import url(../../css/border.css);
 @import url(../../css/font.css);
+@import url(../../css/reset.css);
 
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: var(--primaryColor);
 }
 
-.container{
-display: flex;
+.container {
+  display: flex;
 }
 
 .sidebar {
@@ -33,11 +23,10 @@ display: flex;
   padding-left: 2.5rem;
 }
 
-.main{
+.main {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  
 }
 
 .avatarContainer {
@@ -46,8 +35,6 @@ display: flex;
   align-items: center;
   background-color: var(--lightGrey);
 }
-
-
 
 li {
   list-style: none;
@@ -66,25 +53,22 @@ a {
   padding: 0.5rem;
 }
 
-
-.badgeContainer{
-    display: flex;
+.badgeContainer {
+  display: flex;
 }
 
-.badge{
-    display: flex;
-    justify-content: center;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 10rem;
+.badge {
+  display: flex;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 10rem;
 }
 
-
-.badgeOnline{
-    background-color: var(--colorOnline);
+.badgeOnline {
+  background-color: var(--colorOnline);
 }
 
-.badgeOffline{
-    background-color: var(--colorOffline);
+.badgeOffline {
+  background-color: var(--colorOffline);
 }
-

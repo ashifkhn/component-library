@@ -6,27 +6,17 @@
 @import url(../../css/font.css);
 @import url(../../css/background.css);
 @import url(../../css/button.css);
+@import url(../../css/reset.css);
 
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: var(--primaryColor);
 }
 
-.container{
-display: flex;
+.container {
+  display: flex;
 }
 
 .sidebar {
@@ -36,11 +26,10 @@ display: flex;
   padding-left: 2.5rem;
 }
 
-.main{
+.main {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  
 }
 
 .buttonContainer {
@@ -50,8 +39,6 @@ display: flex;
   align-items: center;
   background-color: var(--lightGrey);
 }
-
-
 
 li {
   list-style: none;
@@ -70,8 +57,7 @@ a {
   padding: 0.5rem;
 }
 
-
-.alert{
+.alert {
   display: flex;
   align-items: center;
   text-align: center;
