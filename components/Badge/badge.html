@@ -1,91 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styleBadge.css" />
-    <title>Why UI</title>
-  </head>
-  <body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styleBadge.css" />
+		<title>Why UI</title>
+	</head>
+	<body>
+		<header></header>
+		<navbar class="navbar p1">
+			<div class="itemLeft">
+				<a
+					href="https://whyui.netlify.app/"
+					class="brandName textL bolder textColorP"
+					>Why UI</a
+				>
+			</div>
+			<div class="itemRight">
+				<a href="/">Home</a>
+				<a href="/" class="documentation">Documentation</a>
+				<a href="/" class="documentation">Research</a>
+				<a href="/" class="documentation">Contact Us</a>
+			</div>
+		</navbar>
+		<div class="container">
+			<div class="sidebar textM">
+				<p>Components</p>
+				<a href="../Alerts/alerts.html" class="navbarItem">Alerts</a>
+				<a href="../Avatar/avatar.html" class="navbarItem">Avatar</a>
+				<a href="../Badge/badge.html" class="navbarItem bolder">Badge</a>
+				<a href="../Buttons/buttons.html" class="navbarItem">Buttons</a>
+				<a href="../Image/image.html" class="navbarItem">Images</a>
+			</div>
 
-    <header>
+			<div class="main">
+				<h1 class="avatarTitle">Badge</h1>
+				<p class="avatarDetails">
+					badge is used to add additional information to the content. For
+					example, some websites associate some number of notifications to the
+					link
+				</p>
+				<div class="avatarContainer p1 br1">
+					<div class="badgeContainer">
+						<img
+							src="../images/256_4.png"
+							alt="Large Avatar"
+							class="avatar avatarRound avatarLarge"
+						/>
+						<span class="badgeLarge badgeOffline"></span>
+					</div>
 
-    </header>
-    <navbar class="navbar p1">
-      <div class="itemLeft">
-        <a
-          href="https://whyui.netlify.app/"
-          class="brandName textL bolder textColorP"
-          >Why UI</a
-        >
-      </div>
-      <div class="itemRight">
-        <a href="/">Home</a>
-        <a href="/" class="documentation">Documentation</a>
-        <a href="/" class="documentation">Research</a>
-        <a href="/" class="documentation">Contact Us</a>
-      </div>
-    </navbar>
-    <div class="container">
-      <div class="sidebar textM">
-        <p>Components</p>
-        <a href="../Alerts/alerts.html" class="navbarItem">Alerts</a>
-        <a href="../Avatar/avatar.html" class="navbarItem">Avatar</a>
-        <a href="../Badge/badge.html" class="navbarItem bolder">Badge</a>
-        <a href="../Buttons/buttons.html" class="navbarItem ">Buttons</a>
-        <a href="../Image/image.html" class="navbarItem">Images</a>
-      </div>
+					<div class="badgeContainer">
+						<img
+							src="../images/256_3.png"
+							alt="Medium Avatar"
+							class="avatar avatarRound avatarMedium"
+						/>
+						<span class="badgeLarge badgeOnline"></span>
+					</div>
 
-      <div class="main">
-        <h1 class="avatarTitle">Badge</h1>
-        <p class="avatarDetails">
-          badge is used to add additional information to the content. For
-          example, some websites associate some number of notifications to the
-          link
-        </p>
-        <div class="avatarContainer p1 br1">
-
-          <div class="badgeContainer">
-            
-            <img
-              src="../images/256_4.png"
-              alt="Large Avatar"
-              class="avatar avatarRound avatarLarge"
-            />
-            <span class="badgeLarge badgeOffline"></span>
-
-          </div>
-
-          <div class="badgeContainer">
- 
-          <img
-            src="../images/256_3.png"
-            alt="Medium Avatar"
-            class="avatar avatarRound avatarMedium"
-          />
-          <span class="badgeLarge badgeOnline"></span>
-
-        </div>
-
-        <div class="badgeContainer">
-          <img
-            src="../images/256_2.png"
-            alt="Small Avatar"
-            class="avatar avatarRound avatarSmall"
-          />
-          <span class="badgeSmall badgeOffline"></span>
-        </div>
-        <div class="badgeContainer">
-          <img
-            src="../images/256_1.png"
-            alt="Tiny Avatar"
-            class="avatar avatarRound avatarTiny"
-          />
-          <span class="badgeSmall badgeOnline"></span>
-        </div>
-        </div>
-      </div>
-    </div>
-  </body>
+					<div class="badgeContainer">
+						<img
+							src="../images/256_2.png"
+							alt="Small Avatar"
+							class="avatar avatarRound avatarSmall"
+						/>
+						<span class="badgeSmall badgeOffline"></span>
+					</div>
+					<div class="badgeContainer">
+						<img
+							src="../images/256_1.png"
+							alt="Tiny Avatar"
+							class="avatar avatarRound avatarTiny"
+						/>
+						<span class="badgeSmall badgeOnline"></span>
+					</div>
+				</div>
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28221%2C221%2C221%2C1%29&t=solarized+light&wt=sharp&l=auto&width=680&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badgeContainer%2522%253E%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_4.png%2522%250Aalt%253D%2522Large%2520Avatar%2522%250Aclass%253D%2522avatar%2520avatarRound%2520avatarLarge%2522%252F%253E%250A%253Cspan%2520class%253D%2522badgeLarge%2520badgeOffline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%250A%253Cdiv%2520class%253D%2522badgeContainer%2522%253E%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_3.png%2522%250Aalt%253D%2522Medium%2520Avatar%2522%250Aclass%253D%2522avatar%2520avatarRound%2520avatarMedium%2522%250A%252F%253E%250A%253Cspan%2520class%253D%2522badgeLarge%2520badgeOnline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%250A%250A%250A%253Cdiv%2520class%253D%2522badgeContainer%2522%253E%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_2.png%2522%250Aalt%253D%2522Small%2520Avatar%2522%250Aclass%253D%2522avatar%2520avatarRound%2520avatarSmall%2522%250A%252F%253E%250A%253Cspan%2520class%253D%2522badgeSmall%2520badgeOffline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%250A%253Cdiv%2520class%253D%2522badgeContainer%2522%253E%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_1.png%2522%250Aalt%253D%2522Tiny%2520Avatar%2522%250Aclass%253D%2522avatar%2520avatarRound%2520avatarTiny%2522%250A%252F%253E%250A%253Cspan%2520class%253D%2522badgeSmall%2520badgeOnline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: auto;
+						height: 874px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+						margin: 1rem;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+			</div>
+		</div>
+	</body>
 </html>
