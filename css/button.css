@@ -1,42 +1,26 @@
-:root {
-    --primaryColor: #414141;
-    --secondaryColor: #2b7a78;
-    --lightGrey: #dddddd;
-    --buttonColor: #17252a;
-    --colorWhite: #feffff;
-    --coloGrey: #def2f1;
-    --colorOffline:rgb(209, 0, 0);
-    --colorOnline:rgb(22, 150, 0);
-  }
+@import url(css/color.css);
 
-  .btn{
-      width: 8rem;
-      height: 2rem;
-      border: none;
-      border-radius: 1rem;
-      color: var(--colorWhite);
-      cursor: pointer;
-
-  }
-
-
-  .btnPrimary{
-    background-color: var(--buttonColor);
-  }
-
-  .btnRed{
-      background-color:rgb(211, 52, 52);
-  }
-
-
-  .btnGreen{
-    background-color:rgb(53, 179, 128);
+.btn {
+	width: 8rem;
+	height: 2rem;
+	border: none;
+	border-radius: 1rem;
+	color: var(--colorWhite);
+	cursor: pointer;
 }
 
-
-.btnBlue{
-    background-color: rgb(88, 198, 220);
+.btnPrimary {
+	background-color: var(--colorDarkGreen);
 }
- 
 
+.btnRed {
+	background-color: rgb(211, 52, 52);
+}
 
+.btnGreen {
+	background-color: rgb(53, 179, 128);
+}
+
+.btnBlue {
+	background-color: rgb(88, 198, 220);
+}

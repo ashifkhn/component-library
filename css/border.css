@@ -1,6 +1,21 @@
-.br1{
-    border-radius: 1rem;
+.br05 {
+	border-radius: 0.5rem;
 }
 
-.br2{
-    border-radius: 2rem;
+.br1 {
+	border-radius: 1rem;
+}
+
+.br2 {
+	border-radius: 2rem;
+}
+
+
+
+.borderRed{
+    border: 2px solid rgb(255, 113, 113);
+}
+
+.borderGreen{
+    border: 2px solid rgb(19, 140, 27);
+}
