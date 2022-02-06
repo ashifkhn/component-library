@@ -1,26 +1,22 @@
-  
-  .imageSmall {
-    width: 90px;
-    height: 90px;
-  }
+.imageSmall {
+	width: 90px;
+	height: 90px;
+}
 
+.imageMedium {
+	width: 110px;
+	height: 110px;
+}
 
-  .imageMedium {
-    width: 110px;
-    height: 110px;
-  }
+.imageLarge {
+	width: 150px;
+	height: 150px;
+}
 
+.imageRound {
+	border-radius: 10rem;
+}
 
-  .imageLarge {
-    width: 150px;
-    height: 150px;
-  }
-  
-  .imageRound{
-      border-radius: 10rem;
-  }
-
-
-  .imageSquare{
-      border: 2px solid black;
-  }
+.imageSquare {
+	border: 2px solid black;
+}

@@ -5,7 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styleInput.css" />
-		<script src="https://kit.fontawesome.com/b78dcc4774.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/b78dcc4774.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Why UI</title>
 	</head>
 	<body>
@@ -21,8 +24,12 @@
 
 				<div class="itemRight">
 					<a href="/" class="documentation">Documentation</a>
-					<a href="https://github.com/ashifkhn" class="documentation" ><i class="fab fa-github"></i></a>
-					<a href="https://www.linkedin.com/in/ashifkhn/" class="documentation" ><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/ashifkhn" class="documentation"
+						><i class="fab fa-github"></i
+					></a>
+					<a href="https://www.linkedin.com/in/ashifkhn/" class="documentation"
+						><i class="fab fa-linkedin"></i
+					></a>
 				</div>
 			</navbar>
 		</header>
@@ -41,62 +48,47 @@
 			<div class="main">
 				<h1 class="inputTitle">Input</h1>
 				<p class="inputDetails">
-					is used to create interactive controls for web-based forms in order to accept data from the user;
+					is used to create interactive controls for web-based forms in order to
+					accept data from the user;
 				</p>
-				<h3>Round Images:</h3>
-				<div class="imageContainer p1 br1">
-					<img
-						src="../images/256_4.png"
-						alt="Large Avatar"
-						class="imageLarge imageRound"
-					/>
-
-					<img
-						src="../images/256_3.png"
-						alt="Medium Avatar"
-						class="imageMedium imageRound"
-					/>
-
-					<img
-						src="../images/256_2.png"
-						alt="Small Avatar"
-						class="imageSmall imageRound"
-					/>
+				<h3>Labelled Inputs</h3>
+				<div class="inputContainer p1 br1">
+					<label for="fname">First name:</label>
+					<input
+						type="text"
+						id="fname"
+						name="fname"
+						class="input br1 p05"
+					/><br /><br />
+					<label for="lname">Last name:</label>
+					<input
+						type="text"
+						id="lname"
+						name="lname"
+						class="input br1 p05"
+					/><br /><br />
 				</div>
 
-				<h3>Square Images:</h3>
-				<div class="imageContainer p1 br1">
-					<img
-						src="../images/imageSquare/5926156-01.jpeg"
-						alt="Large Avatar"
-						class="imageLarge imageSquare"
-					/>
-
-					<img
-						src="../images/imageSquare/5926156-02.jpeg"
-						alt="Medium Avatar"
-						class="imageMedium imageSquare"
-					/>
-
-					<img
-						src="../images/imageSquare/5926156-03.jpeg"
-						alt="Small Avatar"
-						class="imageSmall imageSquare"
-					/>
+				<h3>Input with Validation</h3>
+				<div class="inputContainer p1 br1">
+					<label for="fname"></label>
+					<input
+						type="text"
+						id="fname"
+						name="fname"
+						placeholder="Wrong Password "
+						class="input br1 p05 borderRed"
+					/><br /><br />
+					<label for="lname"></label>
+					<input
+						type="text"
+						id="lname"
+						name="lname"
+						placeholder="Correct Password "
+						class="input br1 p05 borderGreen"
+					/><br /><br />
+					<p class="textVS">Logging in...</p>
 				</div>
-				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%28221%2C221%2C221%2C1%29&t=solarized+light&wt=sharp&l=auto&width=680&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_4.png%2522%250Aalt%253D%2522Large%2520Avatar%2522%250Aclass%253D%2522imageLarge%2520imageRound%2522%250A%252F%253E%250A%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_3.png%2522%250Aalt%253D%2522Medium%2520Avatar%2522%250Aclass%253D%2522imageMedium%2520imageRound%2522%250A%252F%253E%250A%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252F256_2.png%2522%250Aalt%253D%2522Small%2520Avatar%2522%250Aclass%253D%2522imageSmall%2520imageRound%2522%250A%252F%253E%250A%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252FimageSquare%252F5926156-01.jpeg%2522%250Aalt%253D%2522Large%2520Avatar%2522%250Aclass%253D%2522imageLarge%2520imageSquare%2522%250A%252F%253E%250A%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252FimageSquare%252F5926156-02.jpeg%2522%250Aalt%253D%2522Medium%2520Avatar%2522%250Aclass%253D%2522imageMedium%2520imageSquare%2522%250A%252F%253E%250A%250A%253Cimg%250Asrc%253D%2522..%252Fimages%252FimageSquare%252F5926156-03.jpeg%2522%250Aalt%253D%2522Small%2520Avatar%2522%250Aclass%253D%2522imageSmall%2520imageSquare%2522%250A%252F%253E"
-					style="
-						width: auto;
-						height: 838px;
-						border: 0;
-						transform: scale(1);
-						overflow: hidden;
-						margin: 1rem;
-					"
-					sandbox="allow-scripts allow-same-origin"
-				>
-				</iframe>
 			</div>
 		</div>
 	</body>

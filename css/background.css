@@ -1,24 +1,23 @@
-.bgRed{
-    background-color: rgb(194, 98, 98);
+.bgRed {
+	background-color: rgb(194, 98, 98);
 }
 
-.bgBlue{
-    background-color: rgb(158, 212, 245);
+.bgBlue {
+	background-color: rgb(158, 212, 245);
 }
 
-
-.bgGreen{
-    background-color: rgb(57, 177, 113);
+.bgGreen {
+	background-color: rgb(57, 177, 113);
 }
 
-.bgPurple{
-    background-color: rgb(197, 119, 197);
+.bgPurple {
+	background-color: rgb(197, 119, 197);
 }
 
-.bgOrange{
-    background-color: rgb(255, 228, 177);
+.bgOrange {
+	background-color: rgb(255, 228, 177);
 }
 
-.bgGrey{
-    background-color: rgb(151, 151, 151);
-} 
+.bgGrey {
+	background-color: rgb(151, 151, 151);
+}

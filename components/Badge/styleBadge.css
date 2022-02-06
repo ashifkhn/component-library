@@ -1,9 +1,4 @@
-@import url(../../css/avatar.css);
-@import url(../../css/color.css);
-@import url(../../css/padding.css);
-@import url(../../css/border.css);
-@import url(../../css/font.css);
-@import url(../../css/reset.css);
+@import url(../../css/main.css);
 
 .navbar {
 	display: flex;

@@ -1,9 +1,4 @@
-@import url(../../css/image.css);
-@import url(../../css/color.css);
-@import url(../../css/padding.css);
-@import url(../../css/border.css);
-@import url(../../css/font.css);
-@import url(../../css/reset.css);
+@import url(../../css/main.css);
 
 .navbar {
 	display: flex;
@@ -28,8 +23,8 @@
 	flex-direction: column;
 }
 
-.imageContainer {
-	display: flex;
+.inputContainer {
+	/* display: flex; */
 	justify-content: space-evenly;
 	align-items: center;
 	background-color: var(--lightGrey);
