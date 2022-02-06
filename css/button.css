@@ -1,4 +1,4 @@
-@import url(../css/color.css);
+@import url(css/color.css);
 
 .btn {
 	width: 8rem;
@@ -10,7 +10,7 @@
 }
 
 .btnPrimary {
-	background-color: var(--buttonColor);
+	background-color: var(--colorDarkGreen);
 }
 
 .btnRed {
