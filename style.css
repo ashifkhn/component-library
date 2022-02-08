@@ -49,7 +49,7 @@ a {
 .buttonPrimary {
 	padding: 15px;
 	text-decoration: none;
-	color: var(--coloGrey);
+	color: var(--colorGrey);
 	background-color: var(--colorDarkGreen);
 	border-radius: 15px;
 	margin: 10px;
