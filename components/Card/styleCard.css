@@ -32,18 +32,16 @@
 	margin: 1rem;
 }
 
-card{
- display: flex; 
- flex-direction: column;
- border-radius: 5px;
+card {
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
 }
 
-.cardImage{
-  width: auto;
-  height: 200px;
+.cardImage {
+	width: auto;
+	height: 200px;
 }
-    
-
 
 li {
 	list-style: none;
@@ -62,10 +60,9 @@ a {
 	padding: 0.5rem;
 }
 
-button{
+button {
 	cursor: pointer;
 }
-
 
 .footer {
 	display: flex;
@@ -73,9 +70,9 @@ button{
 	justify-content: space-between;
 	padding: 0.2rem 1rem;
 	align-items: flex-end;
-  }
+}
 
-  .imageWithBadge {
+.imageWithBadge {
 	display: flex;
 	background-color: var(--primaryColor);
 	color: white;
@@ -84,35 +81,31 @@ button{
 	margin: 0.1rem;
 }
 
-	.imageWithBadge:hover{
-		cursor: pointer;
-		background-color: var(--colorGrey);
-		color: black;
-	}
+.imageWithBadge:hover {
+	cursor: pointer;
+	background-color: var(--colorGrey);
+	color: black;
+}
 
-.imageWithShadow{
+.imageWithShadow {
 	box-shadow: 10px 10px 8px #888888;
 }
 
-.boxShadow{
+.boxShadow {
 	box-shadow: 10px 10px 8px #888888;
 }
 
-
-
-
-.cardVertical{
+.cardVertical {
 	display: flex;
 	flex-direction: column;
 }
 
-
-.cardHorizontal{
+.cardHorizontal {
 	display: flex;
 	flex-direction: row;
 }
 
-.imageWithDismiss{
+.imageWithDismiss {
 	display: flex;
 	background-color: var(--colorRed);
 	justify-content: center;
@@ -123,7 +116,7 @@ button{
 	/* margin: 0.1rem; */
 }
 
-.imageWithDismiss:hover{
+.imageWithDismiss:hover {
 	cursor: pointer;
 	background-color: var(--colorGrey);
 	color: black;
