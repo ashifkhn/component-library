@@ -1,51 +1,64 @@
 @import url(../../css/main.css);
 
 .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: var(--primaryColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primaryColor);
 }
 
 .container {
-	display: flex;
+  display: flex;
 }
 
 .sidebar {
-	display: flex;
-	flex-direction: column;
-	width: 250px;
-	padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-left: 2.5rem;
 }
 .main {
-	display: flex;
-	flex-grow: 1;
-	flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .modalContainer {
-	/* display: flex; */
-	justify-content: space-evenly;
-	align-items: center;
-	background-color: var(--lightGrey);
-	width: 95%;
-	margin: 1rem;
+  /* display: flex; */
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--lightGrey);
+  width: 95%;
+  margin: 1rem;
 }
 
+.modalBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 300px; */
+  height: 300px;
+}
+
+.modalButton {
+  display: flex;
+  gap: 1rem;
+}
 
 li {
-	list-style: none;
-	font-size: 0.2rem;
-	color: white;
+  list-style: none;
+  font-size: 0.2rem;
+  color: white;
 }
 h2 {
-	color: var(--primaryColor);
-	padding: 0.2rem;
+  color: var(--primaryColor);
+  padding: 0.2rem;
 }
 a {
-	text-decoration: none;
-	color: var(--primaryColor);
-	margin: 10px;
-	font-size: 1.5rem;
-	padding: 0.5rem;
+  text-decoration: none;
+  color: var(--primaryColor);
+  margin: 10px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
 }
