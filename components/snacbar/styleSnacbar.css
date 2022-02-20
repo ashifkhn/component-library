@@ -23,7 +23,7 @@
   flex-direction: column;
 }
 
-.modalContainer {
+.snacbarContainer {
   /* display: flex; */
   justify-content: space-evenly;
   align-items: center;
@@ -32,7 +32,7 @@
   margin: 1rem;
 }
 
-.modalBox {
+.snacBox {
   display: flex;
   justify-content: center;
   align-items: center;
