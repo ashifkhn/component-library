@@ -2,13 +2,6 @@
 
 A lightweight, easy to use and fully customizable CSS component library
 
-## Preview
-
-Insert gif or video link to demo 
-
-![App Screenshot](https://whyui.netlify.app/)
-
-
 ## Features
 
 - Lighweight
