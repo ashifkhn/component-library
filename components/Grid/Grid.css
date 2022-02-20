@@ -25,7 +25,7 @@
 
 .gridContainer {
   display: grid;
-  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   background-color: var(--lightGrey);
   width: 95%;
