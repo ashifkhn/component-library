@@ -1,28 +1,27 @@
 .imageSmall {
-	width: 90px;
-	height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
 .imageMedium {
-	width: 110px;
-	height: 110px;
+  width: 110px;
+  height: 110px;
 }
 
 .imageLarge {
-	width: 150px;
-	height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .imageRound {
-	border-radius: 10rem;
+  border-radius: 10rem;
 }
 
 .imageSquare {
-	border: 2px solid black;
+  border: 2px solid black;
 }
 
-
-.imageResponsive{
-	width: 100%;
-	height: auto;
+.imageResponsive {
+  width: 100%;
+  height: auto;
 }
