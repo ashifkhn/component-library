@@ -6,7 +6,7 @@ A lightweight, easy to use and fully customizable CSS component library
 
 Insert gif or video link to demo 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://whyui.netlify.app/)
 
 
 ## Features
