@@ -4,14 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="rating.css" />
+    <link rel="stylesheet" href="styleSnacbar.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
     <script
       src="https://kit.fontawesome.com/b78dcc4774.js"
       crossorigin="anonymous"
@@ -57,43 +51,42 @@
         <a href="../Navigation/navigation.html" class="navbarItem"
           >Navigation</a
         >
-        <a href="../Rating/rating.html" class="navbarItem bolder">Rating</a>
-        <a href="../snacbar/snacbar.html" class="navbarItem">Snacbar</a>
+        <a href="../Rating/rating.html" class="navbarItem">Rating</a>
+        <a href="../snacbar/snacbar.html" class="navbarItem bolder">Snacbar</a>
         <a href="../Text Utilities/textUtilities.html" class="navbarItem"
           >Text Utilities</a
         >
       </div>
 
       <div class="main">
-        <h1 class="textTitle">Rating</h1>
+        <h1 class="textTitle">Modal</h1>
         <p class="textDetails">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa placeat
           praesentium fugit accusamus vel eos perspiciatis ipsam fugiat! In,
           dignissimos?
         </p>
 
-        <div class="ratingContainer p1 br1">
-          <h4 class="">Rate Us!</h4>
-          <div class="">
-            <i class="fas fa-star gold lg"></i>
-            <i class="fas fa-star gold lg"></i>
-            <i class="fas fa-star gold lg"></i>
-            <i class="fas fa-star lg"></i>
-            <i class="fas fa-star lg"></i>
+        <div class="modalContainer p1 br1">
+          <div class="modalBox borderBlack">
+            <h1>Snacbar Example</h1>
+            <div class="modalButton">
+              <button class="btn btnPrimary" onclick="clickFunction()">
+                Show
+              </button>
+            </div>
           </div>
         </div>
-
-        <div class="ratingContainer p1 br1">
-          <h4 class="">Rate Us!</h4>
-          <div class="">
-            <i class="far fa-grin-stars lg"></i>
-            <i class="far fa-smile-beam lg"></i>
-            <i class="far fa-meh lg"></i>
-            <i class="far fa-frown lg"></i>
-            <i class="far fa-angry lg"></i>
-          </div>
-        </div>
+        <div id="snacbar" class="br05 bgBlack">I'm a Snacbar!</div>
       </div>
     </div>
+    <script>
+      function clickFunction() {
+        var snac = document.querySelector("#snacbar");
+        snac.className = "show";
+        setTimeout(function () {
+          x.className = x.className.replace("show", "");
+        }, 3000);
+      }
+    </script>
   </body>
 </html>
