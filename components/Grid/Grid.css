@@ -57,3 +57,22 @@ a {
   font-size: 1.5rem;
   padding: 0.5rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navbarItem {
+    font-size: 1rem;
+  }
+
+  .brandName {
+    font-size: 1.5rem;
+  }
+  .documentation {
+    font-size: 1rem;
+  }
+}
