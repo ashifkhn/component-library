@@ -9,6 +9,7 @@
 
 .container {
   display: flex;
+  margin-top: 1rem;
 }
 
 .sidebar {
@@ -30,6 +31,7 @@
   align-items: center;
   background-color: var(--lightGrey);
   width: 95%;
+  margin: 1rem 0;
 }
 
 li {
@@ -53,7 +55,7 @@ a {
   display: flex;
 }
 
-.badgeLarge {
+.badge_large {
   display: flex;
   justify-content: center;
   width: 1rem;
@@ -61,7 +63,7 @@ a {
   border-radius: 10rem;
 }
 
-.badgeSmall {
+.badge_small {
   display: flex;
   justify-content: center;
   width: 0.5rem;

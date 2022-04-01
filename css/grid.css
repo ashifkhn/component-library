@@ -1,5 +1,4 @@
-
-.gridContainer {
+.grid_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -8,7 +7,7 @@
   margin: 1rem;
 }
 
-.gridChild {
+.grid_child {
   background-color: var(--secondaryColor);
   padding: 2rem;
   color: var(--colorWhite);

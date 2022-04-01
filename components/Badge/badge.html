@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styleBadge.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/b78dcc4774.js" crossorigin="anonymous"></script>
   <title>Why UI</title>
 </head>
@@ -14,12 +15,12 @@
   <header></header>
   <navbar class="navbar p1">
     <div class="itemLeft">
-      <a href="https://whyui.netlify.app/" class="brandName textL bolder textColorP">Why UI</a>
+      <a href="https://whyui.netlify.app/" class="brandName textL bolder textColorP navbarItem navbarItem">Why UI</a>
     </div>
     <div class="itemRight">
-      <a href="../../documentation.html" class="documentation">Documentation</a>
-      <a href="https://github.com/ashifkhn" class="documentation"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/ashifkhn/" class="documentation"><i class="fab fa-linkedin"></i></a>
+      <a href="../../documentation.html" class="documentation navbarItem navbarItem">Documentation</a>
+      <a href="https://github.com/ashifkhn" class="documentation navbarItem navbarItem"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ashifkhn/" class="documentation navbarItem navbarItem"><i class="fab fa-linkedin"></i></a>
     </div>
   </navbar>
   <div class="container">
@@ -37,7 +38,7 @@
       <a href="../Modal/modal.html" class="navbarItem">Modal</a>
       <a href="../Navigation/navigation.html" class="navbarItem">Navigation</a>
       <a href="../Rating/rating.html" class="navbarItem">Rating</a>
-      <a href="../snacbar/snacbar.html" class="navbarItem">Snacbar</a>
+      <a href="../snacbar/snackbar.html" class="navbarItem">Snackbar</a>
       <a href="../Text Utilities/textUtilities.html" class="navbarItem">Text Utilities</a>
     </div>
 
@@ -48,7 +49,7 @@
         example, some websites associate some number of notifications to the
         link;
       </p>
-      <div class="avatarContainer p1 br1">
+      <div class="avatarContainer p1 br1 mt-1">
         <div class="badgeContainer">
           <img src="../images/256_4.png" alt="Large Avatar" class="avatar avatarRound avatarLarge" />
           <span class="badgeLarge badgeOffline"></span>
@@ -68,6 +69,27 @@
           <span class="badgeSmall badgeOnline"></span>
         </div>
       </div>
+        <h1 class="avatarTitle">Badge with Icon:</h1>
+            <div class="avatarContainer p1 br1">
+              <div class="badgeContainer">
+                <img src="../images/256_4.png" alt="Large Avatar" class="avatar avatarRound avatarLarge" />
+                <span class="badgeLarge "> <i class="fas fa-cat"></i> </span>
+              </div>
+            
+              <div class="badgeContainer">
+                <img src="../images/256_3.png" alt="Medium Avatar" class="avatar avatarRound avatarMedium" />
+                <span class="badgeLarge"> <i class="far fa-clock"></i></span>
+              </div>
+            
+              <div class="badgeContainer">
+                <img src="../images/256_2.png" alt="Small Avatar" class="avatar avatarRound avatarSmall" />
+                <span class="badgeSmall badgeOffline"><i class="fas fa-clock" style="font-size:16px;color:rgb(110, 221, 76);"></i></span>
+              </div>
+              <div class="badgeContainer">
+                <img src="../images/256_1.png" alt="Tiny Avatar" class="avatar avatarRound avatarTiny"/>
+                <span class="badgeSmall badgeOnline"><i class="fa fa-heart"></i></span>
+              </div>
+            </div>
       <div class="codeWrapper p1">
 
         <iframe
@@ -84,6 +106,7 @@
       </div>
     </div>
   </div>
+  
 </body>
 
 </html>

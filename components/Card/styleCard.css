@@ -105,14 +105,34 @@ button {
   flex-direction: row;
 }
 
+.cardDetailsOverLay {
+  opacity: 0.3;
+}
+.overlay_text {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+.cardContainerDismiss {
+  position: absolute;
+}
+
 .imageWithDismiss {
-  display: flex;
+  /* display: flex;
   background-color: var(--colorRed);
   justify-content: center;
   color: white;
   width: 100%;
   padding: 0.5rem;
-  box-sizing: border-box;
+  box-sizing: border-box; */
+  position: absolute;
+  /* position: relative; */
+  /* border-radius: 50%; */
+  left: 50;
+  background-color: red;
+  margin: 0.1rem;
+  padding: 0.1rem;
+
   /* margin: 0.1rem; */
 }
 
@@ -120,6 +140,60 @@ button {
   cursor: pointer;
   background-color: var(--colorGrey);
   color: black;
+}
+
+.column {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-card {
+  height: auto;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card2 {
+  position: relative;
+  height: 15rem;
+  /*center vertically and horizontally the overlay*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__overlay {
+  position: absolute;
+  left: 5%;
+  background-color: #00d1ff;
+  width: 0;
+  height: 98%;
+  transition: 0.5s ease;
+  /*center vertically the card__overlay-content*/
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+.card:hover .card__overlay {
+  width: 90%;
+}
+
+.card:hover .card__overlay-content {
+  display: inline-block;
+}
+
+.card__overlay-line {
+  width: 90%;
+  height: 2px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 500px) {
