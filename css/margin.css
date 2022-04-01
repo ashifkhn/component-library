@@ -1,32 +1,36 @@
 .m-0 {
-	padding: 0;
+  margin: 0;
 }
 
 .mx-0 {
-	padding-left: 0px;
-	padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .my-0 {
-	padding-top: 0px;
-	padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .mt-0 {
-	padding-top: 0px;
+  margin-top: 0px;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 .mr-0 {
-	padding-right: 0px;
+  margin-right: 0px;
 }
 
 .mb-0 {
-	padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .ml-0 {
-	padding-left: 0px;
+  margin-left: 0px;
 }
 
 .m-1 {
-	margin: 1rem;
+  margin: 1rem;
 }

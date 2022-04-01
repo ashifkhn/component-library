@@ -44,6 +44,14 @@ a {
   padding: 0.5rem;
 }
 
+.stacked {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 5px 15px 0 rgb(27 27 78 / 50%);
+}
+
 @media only screen and (max-width: 500px) {
   .navbar {
     display: flex;
