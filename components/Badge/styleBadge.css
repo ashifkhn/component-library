@@ -53,6 +53,7 @@ a {
 
 .badgeContainer {
   display: flex;
+  position: relative;
 }
 
 .badge_large {
@@ -73,10 +74,14 @@ a {
 
 .badgeOnline {
   background-color: var(--colorOnline);
+  position: absolute;
+  right: 15px;
 }
 
 .badgeOffline {
   background-color: var(--colorOffline);
+  position: absolute;
+  right: 15px;
 }
 
 @media only screen and (max-width: 500px) {
